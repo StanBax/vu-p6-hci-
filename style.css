@@ -8,10 +8,18 @@ capser (#adbed2)
 regal blue (#12406A)
 
 */
+body {
 
+	height: 4000px;
+
+}
 
 .header {
-    height: 57px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 9999999999;
 }
 
 .header-icons {
@@ -26,3 +34,74 @@ regal blue (#12406A)
     color: #12406A;
     margin-left: 11%;
 }
+
+
+.logo-image-header {
+    height: 100px;
+    width: 153px;
+    background-image: url(https://thumbs.dreamstime.com/t/gebroken-sigaret-4443624.jpg);
+    background-size: cover;
+}
+
+.header-menu-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+.header-menu {
+    list-style: none;
+    display: -webkit-inline-box;
+}
+
+.li-menu {
+    margin: 41px;
+} 
+
+.call-us-header {
+    position: absolute;
+    top: 14px;
+    right: 372px;
+}
+
+.call-us-times-header {
+    position: absolute;
+    top: 14px;
+    right: 177px;
+}
+
+.header-menu-wrapper-btm {
+    margin-top: 100px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #EB8F90;
+    z-index: 99999999;
+    height: 44px;
+    padding-top: 10px;
+}
+.menu-br-btm {
+	color: white !important;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.frontpage-pic-wrapper {
+    height: 500px;
+    background-image: url(http://www.algomapublichealth.com/media/1991/manbreakingcigarette_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-1 {
+    text-align: center;
+    padding-top: 8%;
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
