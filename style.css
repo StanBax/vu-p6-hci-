@@ -1,0 +1,28 @@
+/*
+
+colors:
+
+blush pink (#EB8F90)
+tangerine (#FFB471)
+capser (#adbed2)
+regal blue (#12406A)
+
+*/
+
+
+.header {
+    height: 57px;
+}
+
+.header-icons {
+    float: right;
+    padding: 3%;
+    width: 50%;
+}
+
+.header-icons-fa {
+    font-weight: 900;
+    font-size: xx-large;
+    color: #12406A;
+    margin-left: 11%;
+}
